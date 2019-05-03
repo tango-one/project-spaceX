@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #34495E;
+}
+
+html {
+	
+	font-family: 'open Sans','sans-serif';
+}
+
+#logo {
+	position: absolute;
+	color: pink;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+
+
+.nav {
+	
+	text-align: right;
+	height: 70px;
+	line-height: 70px; 
+	background-color: black;
+}
+
+li {
+	list-style: none;
+	display: inline;
+
+
+	
+}
+
+
+.menu  {
+	margin: -15px 20px 0 0;   
+	display: inline-block;
+	/* endret */
+	position: relative;
+
+
+}
+
+
+
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	
+
+	line-height: 70px;
+	margin-left: 15px;		/* avstand mellom menu elementer*/
+}
+
+a:hover {
+	color: gray;
+}
+
+
+
+
+label {
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+
+}
+
+#toggle {
+	display: none;
+}
+
+/*  */
+
+.container {
+	/* border: 1px solid red; */
+	background-size: contain;
+	width: 80%;
+	height: 400px;
+	margin-top: 100px;
+	margin: 0 auto;
+	}
+
+.current {
+
+	border-bottom: 3px solid white;
+}
+
+
+.btn_send {
+
+	width: 150px;
+	height: 43px;
+	background-color: white;
+	margin-left: 20px;
+}
+
+#error {
+	color: red;
+	text-transform: capitalize;
+}
+
+
+/*
++---------------------------------------------+
+|/////////////// Page: Home    ///////////////|
++---------------------------------------------+
+*/
+
+.img {
+	width: 100%;
+	position: relative;
+	
+}
+
+
+.cards {
+
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+}
+
+.card-text {
+	text-align: center;
+}
+
+.fast-link {
+
+	color: aliceblue;
+	
+
+}
+
+.fast-link:hover {
+	color: black;
+}
+
+.box:hover > div {
+	background-color: red;
+}
+
+
+/* call 2 action */
+
+.c2a {
+	margin: auto;
+	
+}
+
+.cta-txt {
+	color: white;
+}
+
+input[type=text] {
+	padding: 12px 12px;
+	font-family: 'open sans';
+	
+	
+}
+
+
+
+/*
+.img-txt {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: aquamarine;
+	color: aliceblue;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+
+}
+
+
+
+*/
+
+@media only screen and (max-width: 600px) {
+	.cards {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		justify-content: space-around;
+		margin-bottom: 20px;
+	}.box {
+		margin-bottom: 30px;
+	} .btn_send {
+		width: 100%;
+	} #email-fr {
+		width: 100%;
+	} #submit {
+		margin: 0 auto;
+	}
+/*
++---------------------------------------------+
+|/////////////// Page: Launches///////////////|
++---------------------------------------------+
+*/
+
+/*
++---------------------------------------------+
+|/////////////// Page: Contact ///////////////|
++---------------------------------------------+
+*/
+
+/*
++---------------------------------------------+
+|/////////////// Page: About   ///////////////|
++---------------------------------------------+
+*/
+
+#about {
+	color: white;
+}
+
+
+/*
++---------------------------------------------+
+|/////////////// MEDIA Queries ///////////////|
++---------------------------------------------+
+*/
+
+
+
+@media only screen and (max-width: 600px) {
+	label {
+		display: block; 
+		cursor: pointer;
+		color: white;
+	} 
+	.menu {
+		text-align: center;
+		width: 100%;
+		display: none;
+
+
+
+	} 
+
+
+	.menu a {
+		display: block;
+		
+		margin: 0;
+		color: white;
+	}.container {
+		margin-top: 260px;
+ 	} 
+
+	a:hover {
+		display: block;
+		background-color: black; 
+		
+	} 
+
+	#toggle:checked + .menu {
+		display: block;
+	} 
+}
+
