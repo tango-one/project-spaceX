@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Spacex Launche site - Contact us</title>
+		<meta charset="utf-8">
+		<meta name="description" content="SpaceX - Launch site - findout what spacex will launch next">
+		<meta name="keywords" content="space, launch, spacex">
+		<meta name="author" content="mr spacex">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+
+</head>
+<body>
+
+
+	<header>
+
+		<div id="logo">
+			<img src="./images/logo.png">
+		</div>
+		
+		<div class="nav">
+			<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="launches.html">Launches</a></li>
+                        <li><a href="contact.html" class="current">Contact</a></li>
+                        <li><a href="timeline.html">TimeLine</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+			</div>
+		</div>
+	
+	</header>
+
+	
+	<div class="container">
+	
+
+
+		<div class="form-contact">
+			<form class="form-contact" autocomplete="off" onsubmit="return contact()";>
+				<h2 class="contact-txt">Contact us</h2>
+				<input type="text" id="name" placeholder="your name"><br><br>
+				<input type="email" id="email" placeholder="your email"><br><br>
+				<input type="text" id="cmt" placeholder="comment" size="160">
+				<!--
+				<textarea id="txtcmt" cols="40" rows="6" placeholder="comment"></textarea>
+				-->
+				<div id="error"></div><br>
+				<input type="submit" id="submit" class="btn_send" style="margin-left: 0px;">
+			</form>
+		</div>
+
+		
+
+	</div>
+
+		
+	
+
+
+</body>
+<script src="js/contact.js"></script>
+</html>
