@@ -19,3 +19,12 @@ navbar
 contact
 
         - added contact.js so that the user needs to enter a valid email.
+
+Version 1.0 - 
+
+Added   - "our services" on index.html
+        - included "tag line" on logo and removed text from image.
+        
+Added   - re-design of contact page contact.html
+
+Added   - timeline 
