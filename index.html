@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Spacex Launche site - Home</title>
+		<meta charset="utf-8">
+		<meta name="description" content="SpaceX - Launch site - findout what spacex will launch next">
+		<meta name="keywords" content="space, launch, spacex">
+		<meta name="author" content="Rocket Man">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<script src="js/newsletter.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<div id="logo">
+			<img src="./images/logo.png">
+			<h5 class="tag">Launch site</h5>
+		</div>
+			<div class="nav">
+			<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu">
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="launches.html">Launches</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="timeline.html">TimeLine</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+			</div>
+		</div>
+	</header>
+
+	
+	<div class="container">
+
+		
+			<div class="img">
+				<img src="./images/launch-head.jpg" class="img">
+			</div>
+		
+	
+
+		
+		
+			<div class="cards">
+				<div class="box">
+					<a href="launches.html" class="fast-link"><i class="fas fa-rocket fa-7x "></i></a>
+					<h2 class="card-text"></h2>
+				</div>
+
+				<div class="box">
+					<a href="about.html" class="fast-link"><i class="fas fa-info fa-7x"></i></a>
+					<h2 class="card-text"></h2>
+				</div>
+
+				<div class="box">
+					<a href="contact.html" class="fast-link"><i class="fas fa-comment fa-7x "></i></a>
+					<h2></h2>
+				</div>
+			</div>
+		
+
+		
+		
+			<div class="service">
+				<h2 class="service-head">Our services</h2>
+				<div class="bo">
+					<div class="service-one">
+						<img src="images/assambly.jpg" class="b" >
+						<p align="center">Assembly</p>
+					</div>
+
+					<div class="service-one">
+						<img src="images/launch.jpg" >
+						<p align="center">Launch</p>
+					</div>
+
+					<div class="service-one">
+						<img src="images/control.jpg" >
+						<p align="center">Control</p>
+					</div>
+				</div>
+			</div>
+		
+
+
+		<div class="newsletter">
+			<h3 class="cta-txt" align="center">Recive notification on next launch</h3>
+				<form class="form-newsletter" autocomplete="off" onsubmit="return news()";>
+					<input type="email" id="email" placeholder="your email">
+					<input type="submit" id="submit" class="btn_send" >
+				</form>
+				<div id="error" align="center"></div>
+		</div>
+
+	</div>
+
+</body>
+</html>
